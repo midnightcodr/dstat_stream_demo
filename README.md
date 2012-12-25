@@ -1,11 +1,12 @@
 ## About
-A really simple streaming app built with dstat (not installed by default on most platforms but really easy to get it installed), node.js, express, socket.io
+A really simple streaming app built with dstat (not installed by default on most platforms but really easy to get it installed), node.js, express and socket.io
 
 ## Setup guide
 	git clone git://github.com/midnightcodr/dstat_stream_demo.git
 	cd dstat_stream_demo
 	npm install
 	node app.js
+	http://<ip>:3000/dstat
 
 ## Screenshot (video)
 ![ScreenShot](https://dl.dropbox.com/u/16020214/dstat_with_nodejs.mov)
