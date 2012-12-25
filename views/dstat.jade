@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  div.container
+    table#info
+      tr
+        td
+          |----total-cpu-usage---- -dsk/total- -net/total- ---paging-- ---system--<br />
+          |usr sys idl wai hiq siq| read&nbsp;&nbsp;writ| recv&nbsp;&nbsp;send|&nbsp;&nbsp;in&nbsp;&nbsp; out | int&nbsp;&nbsp; csw 
+      tr.new
+        td
+          |&nbsp;
